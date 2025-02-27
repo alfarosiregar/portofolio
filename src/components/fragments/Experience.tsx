@@ -1,4 +1,4 @@
-import { Briefcase, Calendar, MapPin, Globe, UserCheck } from "lucide-react";
+import { Briefcase, Calendar, Globe, UserCheck } from "lucide-react";
 import { motion } from "framer-motion";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 

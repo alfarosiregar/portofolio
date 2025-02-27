@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Code2, FileCode } from "lucide-react";
+import { FileCode } from "lucide-react";
 import Image from "next/image";
 
 export default function Sertificate() {

@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Code, Database, Server, Zap } from "lucide-react";
 import Image from "next/image";
 
 export default function About() {
