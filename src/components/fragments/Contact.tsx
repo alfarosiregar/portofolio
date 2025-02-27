@@ -78,7 +78,7 @@ export default function Contact() {
                   afdofarosir23@gmail.com
                 </a>
                 <a
-                  href="tel:+923055356766"
+                  href="tel:+6285183379033"
                   className="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
                 >
                   <Phone className="w-6 h-6 mr-3 text-blue-600" />

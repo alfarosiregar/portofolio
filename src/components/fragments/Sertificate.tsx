@@ -69,7 +69,7 @@ export default function Sertificate() {
             >
               <div className="flex items-center mb-4">
                 {service.icon}
-                <h3 className="text-2xl font-semibold ml-4 dark:text-white group-hover:text-blue-600">
+                <h3 className="text-md md:text-xl lg:text-2xl font-semibold ml-4 dark:text-white group-hover:text-blue-600">
                   <a
                     href={service.link}
                     target="_blank"

@@ -100,7 +100,7 @@ export default function Skills() {
 
       <div className="container mx-auto px-6 relative z-10">
         <AnimatedSectionHeader title="Skills & Expertise" />
-        <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 gap-8">
           {skills.map((skill, index) => (
             <motion.div
               key={index}
