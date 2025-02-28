@@ -5,37 +5,39 @@ import Image from "next/image";
 export default function Sertificate() {
   const services = [
     {
-      icon: <FileCode className="w-12 h-12 text-blue-500" />,
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-blue-500" />,
       title: "HTML, CSS, JavaScript : Pemula Sampai Mahir",
       description: "Udemy",
       link: "https://drive.google.com/file/d/10h_yRH84HzP6BuNqZC8qrLoRwMFivQ_-/view?usp=sharing",
     },
     {
-      icon: <FileCode className="w-12 h-12 text-green-500" />,
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-green-500" />,
       title: "RevoU Tech Academy - Data & Software Engineering",
       description: "RevoU",
       link: "https://drive.google.com/file/d/1DeMpYuulUitLWWNqN3a_VWurYMHj0ig6/view?usp=sharing",
     },
     {
-      icon: <FileCode className="w-12 h-12 text-indigo-500" />,
+      icon: (
+        <FileCode className="w-12 h-12 min-w-12 min-h-12 text-indigo-500" />
+      ),
       title: "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
       description: "Dicoding",
       link: "https://drive.google.com/file/d/1cFS1X5ObxeAhtF6XHRzEN2iT9QwsWWR2/view?usp=sharing",
     },
     {
-      icon: <FileCode className="w-12 h-12 text-rose-500" />,
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-rose-500" />,
       title: "Meniti Karier sebagai Software Developer",
       description: "Dicoding",
       link: "https://drive.google.com/file/d/1pX_n5VZIK6RNNQz7ntjnLTUbUuXlX9CE/view?usp=sharing",
     },
     {
-      icon: <FileCode className="w-12 h-12 text-slate-500" />,
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-slate-500" />,
       title: "Belajar Dasar Pemrograman Web",
       description: "Dicoding",
       link: "https://drive.google.com/file/d/19JfKYRGj7B_g__QauZrFG7FcaQjbZEdM/view?usp=sharing",
     },
     {
-      icon: <FileCode className="w-12 h-12 text-cyan-500" />,
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-cyan-500" />,
       title: "Belajar Membuat Front-End Web untuk Pemula",
       description: "Dicoding",
       link: "https://drive.google.com/file/d/1FUhudbhXhrQqpSPnzJ_YBH73wA7xFA3b/view?usp=sharing",
@@ -69,7 +71,7 @@ export default function Sertificate() {
             >
               <div className="flex items-center mb-4">
                 {service.icon}
-                <h3 className="text-md md:text-xl lg:text-2xl font-semibold ml-4 dark:text-white group-hover:text-blue-600">
+                <h3 className="text-md md:text-lg lg:text-xl font-semibold ml-4 dark:text-white group-hover:text-blue-600">
                   <a
                     href={service.link}
                     target="_blank"
@@ -85,14 +87,6 @@ export default function Sertificate() {
             </motion.div>
           ))}
         </div>
-      </div>
-      <div className="absolute top-0 left-0 w-64 h-64 -mt-32 -ml-32 opacity-20">
-        <Image
-          src="/placeholder.svg?height=256&width=256"
-          alt="Decorative background"
-          width={256}
-          height={256}
-        />
       </div>
     </section>
   );

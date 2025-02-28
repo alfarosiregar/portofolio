@@ -4,6 +4,7 @@ import { Mail, MapPin, Phone, Send, Loader2 } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import emailjs from "@emailjs/browser";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -30,8 +31,20 @@ export default function Contact() {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      // Here you would typically send the form data to your backend
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate API call
+      const templateParams = {
+        from_name: data.name,
+        from_email: data.email,
+        subject: data.subject,
+        message: data.message,
+      };
+
+      await emailjs.send(
+        "service_i5hwhk9", // Ganti dengan service_id dari EmailJS
+        "template_hsvunq7", // Ganti dengan template_id dari EmailJS
+        templateParams,
+        "szeJYSUEGH31Sk-QU" // Ganti dengan public_key dari EmailJS
+      );
+
       setSubmitSuccess(true);
       reset();
       setTimeout(() => setSubmitSuccess(false), 3000);
@@ -55,7 +68,7 @@ export default function Contact() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          Get in Touch
+          Contact Me
         </motion.h2>
         <div className="flex flex-col lg:flex-row gap-12">
           <motion.div

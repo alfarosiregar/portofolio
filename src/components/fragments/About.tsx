@@ -39,20 +39,6 @@ export default function About() {
               skills.
             </p>
           </motion.div>
-          <motion.div
-            className="md:w-1/2 grid grid-cols-1 gap-6"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="flex justify-center items-center text-center gap-2 m-auto bg-white dark:bg-gray-400 p-6 rounded-lg shadow-md">
-              <Image src={`/next.png`} alt="next" width={50} height={50} />
-              <h3 className="text-xl font-semibold mt-4 mb-2 dark:text-gray-900">
-                NextJS
-              </h3>
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>

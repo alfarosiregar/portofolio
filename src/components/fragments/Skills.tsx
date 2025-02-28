@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
+import Image from "next/image";
 
 const SkillIcon = ({ icon, color }: { icon?: string; color: string }) => (
   <div className="p-2 rounded-full bg-white dark:bg-gray-800 shadow-lg pointer">
@@ -22,11 +23,6 @@ const skills = [
     icon: "tailwind-css",
     name: "Tailwind",
     color: "text-blue-500",
-  },
-  {
-    icon: "bootstrap",
-    name: "Bootstrap",
-    color: "text-purple-500",
   },
   {
     icon: "javascript",
@@ -53,6 +49,11 @@ const skills = [
     name: "Github",
     color: "text-white-500",
   },
+  {
+    icon: "firebase",
+    name: "Firebase",
+    color: "text-orange-500",
+  },
 ];
 
 export default function Skills() {
@@ -69,23 +70,11 @@ export default function Skills() {
               id="skill-pattern"
               x="0"
               y="0"
-              width="100"
-              height="100"
+              width="20"
+              height="20"
               patternUnits="userSpaceOnUse"
             >
-              <circle
-                cx="50"
-                cy="50"
-                r="20"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-              <path
-                d="M50 30 L50 70 M30 50 L70 50"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
+              <circle cx="10" cy="10" r="2" fill="currentColor" />
             </pattern>
           </defs>
           <rect
@@ -121,6 +110,23 @@ export default function Skills() {
               </div>
             </motion.div>
           ))}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 1 }}
+          >
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 group">
+              <div className="flex items-center justify-center">
+                <Image src="/nextjs.svg" alt="NextJS" width={40} height={40} />
+                <div className="ml-4">
+                  <h3 className="text-lg font-semibold dark:text-white group-hover:text-blue-600 dark:group-hover:text-purple-400 group-hover:scale-105 group-hover:pointer-events-none transition-colors duration-300">
+                    NextJS
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>

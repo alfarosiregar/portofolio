@@ -17,6 +17,7 @@ export default function Experience() {
         "Introduction to Backend Development and Node.js",
         "Backend Development with Express.js",
         "Fullstack integration",
+        "Final submission capstone project",
       ],
     },
     {
@@ -34,6 +35,7 @@ export default function Experience() {
         "Become a Front-End Web Developer Expert",
         "Learn JavaScript Programming Basics",
         "Learn to Create Back-End Applications for Beginners",
+        "Final submission capstone project",
       ],
     },
   ];

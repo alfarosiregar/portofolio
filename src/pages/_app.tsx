@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "boxicons/css/boxicons.min.css";
 import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/layouts/theme-provider";
@@ -12,12 +13,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Afdol Fahmul Rozi</title>
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-        />
       </Head>
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
         <div className={inter.className}>
           <div className="fixed top-4 right-4 z-50">
             <ModeToggle />
