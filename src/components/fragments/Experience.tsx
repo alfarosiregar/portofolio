@@ -24,7 +24,7 @@ export default function Experience() {
       company: "MSIB",
       location: "Studi Independen",
       period: "August 2022 - December 2022",
-      role: "Front-End Web Developer - Dicoding Academy",
+      role: "Front-End and Back-End Developer - Dicoding Academy",
       responsibilities: [
         "Getting Started with Programming Basics to Become a Software Developer",
         "Introduction to Programming Logic (Programming Logic 101)",
