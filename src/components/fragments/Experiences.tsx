@@ -11,13 +11,13 @@ export default function Experience() {
       role: "Cloud Computing",
       responsibilities: [
         "Participating in AWS re/Start, a full-time 12-week (3-month) cloud computing training program",
-        "Learning AWS fundamentals: EC2, S3, IAM, RDS, Networking, Security, etc.",
-        "Hands-on practice with cloud labs and real-world scenarios",
-        "Preparing for AWS Cloud Practitioner & Developer Associate certifications",
+        "Gained knowledge of AWS services including EC2, S3, IAM, Networking, Security, Python, RDS, etc.",
+        "Completed hands-on labs and real-world projects, applying cloud concepts to practical scenarios",
+        "Actively preparing for AWS Certified Cloud Practitioner and AWS Certified Developer – Associate",
       ],
     },
     {
-      company: "MSIB",
+      company: "Kampus Merdeka – MSIB Program",
       location: "Studi Independen",
       period: "August 2023 - December 2023",
       role: "Data & Software Engineering - RevoU Tech Academy",
@@ -29,7 +29,7 @@ export default function Experience() {
       ],
     },
     {
-      company: "MSIB",
+      company: "Kampus Merdeka – MSIB Program",
       location: "Studi Independen",
       period: "August 2022 - December 2022",
       role: "Front-End and Back-End Developer - Dicoding Academy",
