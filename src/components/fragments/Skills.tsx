@@ -35,6 +35,11 @@ const skills = [
     color: "text-blue-500",
   },
   {
+    icon: "python",
+    name: "Python",
+    color: "text-blue-500",
+  },
+  {
     icon: "react",
     name: "React",
     color: "text-blue-500",
@@ -52,6 +57,11 @@ const skills = [
   {
     icon: "firebase",
     name: "Firebase",
+    color: "text-orange-500",
+  },
+  {
+    icon: "aws",
+    name: "Cloud Computing",
     color: "text-orange-500",
   },
 ];

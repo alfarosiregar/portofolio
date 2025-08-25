@@ -5,19 +5,27 @@ import AnimatedSectionHeader from "./AnimatedSectionHeader";
 export default function Experience() {
   const experiences = [
     {
+      company: "Amazon Web Services",
+      location: "AWS re/Start",
+      period: "July 2025 - Now",
+      role: "Cloud Computing",
+      responsibilities: [
+        "Participating in AWS re/Start, a full-time 12-week (3-month) cloud computing training program",
+        "Learning AWS fundamentals: EC2, S3, IAM, RDS, Networking, Security, etc.",
+        "Hands-on practice with cloud labs and real-world scenarios",
+        "Preparing for AWS Cloud Practitioner & Developer Associate certifications",
+      ],
+    },
+    {
       company: "MSIB",
       location: "Studi Independen",
       period: "August 2023 - December 2023",
       role: "Data & Software Engineering - RevoU Tech Academy",
       responsibilities: [
-        "Introduction to Software Engineering",
-        "Advanced HTML and CSS",
-        "JavaScript Programming Fundamentals",
-        "Building a simple game using JavaScript",
-        "Introduction to Backend Development and Node.js",
-        "Backend Development with Express.js",
-        "Fullstack integration",
-        "Final submission capstone project",
+        "Learned software engineering fundamentals and best practices in modern web development",
+        "Built responsive web applications using HTML, CSS, and JavaScript",
+        "Gained experience in backend development with Node.js & Express.js",
+        "Developed a fullstack capstone project integrating frontend and backend",
       ],
     },
     {
@@ -26,16 +34,10 @@ export default function Experience() {
       period: "August 2022 - December 2022",
       role: "Front-End and Back-End Developer - Dicoding Academy",
       responsibilities: [
-        "Getting Started with Programming Basics to Become a Software Developer",
-        "Introduction to Programming Logic (Programming Logic 101)",
-        "Learn Git Basics with Github",
-        "Learn Web Programming Basics",
-        "Creating a Web Front-End for Beginners",
-        "Learn Front-End Web Development Fundamentalst",
-        "Become a Front-End Web Developer Expert",
-        "Learn JavaScript Programming Basics",
-        "Learn to Create Back-End Applications for Beginners",
-        "Final submission capstone project",
+        "Learned programming logic, Git/GitHub, and web development basics",
+        "Built interactive frontend applications with HTML, CSS, and JavaScript",
+        "Explored backend fundamentals and created beginner-level server applications",
+        "Completed a capstone project as a final submission",
       ],
     },
   ];

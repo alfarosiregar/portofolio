@@ -65,11 +65,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-l from-blue-600 to-purple-500 dark:from-blue-500 dark:to-purple-500">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-l from-gray-400 to-gray-400 dark:from-blue-500 dark:to-purple-500">
               Afdol Fahmul Rozi
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-300 dark:text-gray-100">
-              Frontend Developer
+              Front End Developer
             </h2>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a

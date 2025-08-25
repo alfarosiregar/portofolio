@@ -17,6 +17,13 @@ export default function Sertificate() {
       link: "https://drive.google.com/file/d/1DeMpYuulUitLWWNqN3a_VWurYMHj0ig6/view?usp=sharing",
     },
     {
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-green-500" />,
+      title:
+        "Junior Network Administrator (Vocational School Graduate Academy)",
+      description: "Digital Talent Scholarship",
+      link: "https://drive.google.com/file/d/1QKyQXpAjLKdOSN3mkKpZllWt49gkCNSU/view?usp=sharing",
+    },
+    {
       icon: (
         <FileCode className="w-12 h-12 min-w-12 min-h-12 text-indigo-500" />
       ),

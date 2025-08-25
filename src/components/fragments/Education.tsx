@@ -8,9 +8,9 @@ export default function Education() {
     {
       institution: "Bachelor's Degree in Computer Science",
       degree: "Medan State University",
-      period: "August 2020 – Now",
+      period: "August 2020 – July 2025",
       achievements:
-        "Currently conducting research for Thesis with the title “Security Analysis of Web Applications Based on OWASP (Open Web Application Security Project) Standards”",
+        "Completed thesis research titled “Security Analysis Using the OWASP (Open Web Application Security Project) Standart on Web Application”",
     },
   ];
 

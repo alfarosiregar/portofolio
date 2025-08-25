@@ -26,17 +26,13 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              I am a Frontend Developer passionate about creating
-              high-performance digital solutions with the latest web
-              technologies. I focus on building scalable, efficient applications
-              for seamless user experiences.
-            </p>
-            <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              With expertise in modern frameworks like Next.js, I write clean,
-              efficient code and stay updated with industry trends to deliver
-              cutting-edge solutions. As technology evolves, I continuously
-              learn and adapt to new tools and best practices to refine my
-              skills.
+              I am a Fresh Graduate and Front End Developer Enthusiast
+              passionate about building fast, responsive, and secure web
+              applications. Currently enhancing my cloud computing skills
+              through the AWS re/Start program while progressing toward the AWS
+              Cloud Practitioner and Developer Associate certifications. I aim
+              to combine front-end expertise with cloud knowledge to deliver
+              scalable solutions and contribute to innovative teams.
             </p>
           </motion.div>
         </div>
