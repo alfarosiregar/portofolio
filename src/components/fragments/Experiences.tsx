@@ -23,7 +23,7 @@ export default function Experience() {
       role: "Data & Software Engineering - RevoU Tech Academy",
       responsibilities: [
         "Learned software engineering fundamentals and best practices in modern web development",
-        "Built responsive web applications using HTML, CSS, and JavaScript",
+        "Built responsive web applications using HTML, CSS, JavaScript, React",
         "Gained experience in backend development with Node.js & Express.js",
         "Developed a fullstack capstone project integrating frontend and backend",
       ],
