@@ -11,7 +11,7 @@ export default function Experience() {
       role: "Cloud Computing",
       responsibilities: [
         "Participating in AWS re/Start, a full-time 12-week (3-month) cloud computing training program",
-        "Gained knowledge of AWS services including EC2, S3, IAM, Networking, Security, Python, RDS, etc.",
+        "Gained knowledge of AWS services including Server, Networking, Storage, Databases, Security, Python, Linux, etc.",
         "Completed hands-on labs and real-world projects, applying cloud concepts to practical scenarios",
         "Actively preparing for AWS Certified Cloud Practitioner and AWS Certified Developer – Associate",
       ],

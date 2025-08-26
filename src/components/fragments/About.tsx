@@ -26,13 +26,17 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              I am a Fresh Graduate and Front End Developer Enthusiast
-              passionate about building fast, responsive, and secure web
-              applications. Currently enhancing my cloud computing skills
-              through the AWS re/Start program while progressing toward the AWS
-              Cloud Practitioner and Developer Associate certifications. I aim
-              to combine front-end expertise with cloud knowledge to deliver
-              scalable solutions and contribute to innovative teams.
+              I’m a Fresh Graduate and Front-End Developer Enthusiast passionate
+              about building fast, responsive, and secure web applications.
+              Currently enhancing my Cloud Computing skills through the AWS
+              re/Start program while progressing toward the AWS Cloud
+              Practitioner and Developer-Associate certifications. Through the
+              program, I have gained knowledge in core AWS services including
+              Server, Networking fundamentals (IP addressing, DNS, VPC, subnets,
+              routing, and security groups), Storage, Databases, Security,
+              Python, Linux, etc. I aim to combine Front-End expertise with
+              Cloud Computing knowledge to deliver scalable solutions and
+              contribute to innovative teams.
             </p>
           </motion.div>
         </div>
