@@ -1,9 +1,20 @@
 import { motion } from "framer-motion";
 import { FileCode } from "lucide-react";
-import Image from "next/image";
 
 export default function Sertificate() {
   const services = [
+    {
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-amber-500" />,
+      title: "Intermediate Junior Network Administrator",
+      description: "Digital Talent Scholarship",
+      link: "https://drive.google.com/file/d/1yWWaMy3vfH6O5Z1rDtpV-HJrxcyVKXy2/view?usp=drive_link",
+    },
+    {
+      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-amber-500" />,
+      title: "Fundamental Junior Network Administrator",
+      description: "Digital Talent Scholarship",
+      link: "https://drive.google.com/file/d/1QKyQXpAjLKdOSN3mkKpZllWt49gkCNSU/view?usp=sharing",
+    },
     {
       icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-blue-500" />,
       title: "HTML, CSS, JavaScript : Pemula Sampai Mahir",
@@ -15,13 +26,6 @@ export default function Sertificate() {
       title: "RevoU Tech Academy - Data & Software Engineering",
       description: "RevoU",
       link: "https://drive.google.com/file/d/1DeMpYuulUitLWWNqN3a_VWurYMHj0ig6/view?usp=sharing",
-    },
-    {
-      icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-green-500" />,
-      title:
-        "Junior Network Administrator (Vocational School Graduate Academy)",
-      description: "Digital Talent Scholarship",
-      link: "https://drive.google.com/file/d/1QKyQXpAjLKdOSN3mkKpZllWt49gkCNSU/view?usp=sharing",
     },
     {
       icon: (
