@@ -69,7 +69,7 @@ export default function Hero() {
               Afdol Fahmul Rozi
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-300 dark:text-gray-100">
-              Front End Developer
+              Front-End Developer
             </h2>
             <div className="flex justify-center lg:justify-start space-x-4 mb-8">
               <a
