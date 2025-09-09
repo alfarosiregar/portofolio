@@ -26,19 +26,20 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              I’m a Fresh Graduate and Front-End Developer Enthusiast passionate
-              about building fast, responsive, and secure web applications.
-              Currently enhancing my Cloud Computing skills through the AWS
-              re/Start program while progressing toward the AWS Cloud
-              Practitioner and Developer-Associate certifications.
+              I am a Fresh Graduate and Front-End Developer Enthusiast with a
+              strong passion for building fast, responsive, and secure web
+              applications. Currently, I am advancing my Cloud Computing
+              expertise through the AWS re/Start program while preparing for the
+              AWS Cloud Practitioner and Developer-Associate certifications.
             </p>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              Through the program, I have gained knowledge in core AWS services
-              including Server, Networking fundamentals (IP addressing, DNS,
-              VPC, subnets, routing, and security groups), Storage, Databases,
-              Security, Python, Linux, etc. I aim to combine Front-End expertise
-              with Cloud Computing knowledge to deliver scalable solutions and
-              contribute to innovative teams.
+              Through this program, I have gained hands-on experience with core
+              AWS services, including Server Management, Networking (IP
+              addressing, DNS, VPC, subnets, routing, and security groups),
+              Storage, Databases, Security, Python, and Linux. My goal is to
+              integrate front-end development skills with cloud computing
+              knowledge to deliver scalable, reliable, and innovative solutions
+              that create real business impact.
             </p>
           </motion.div>
         </div>
