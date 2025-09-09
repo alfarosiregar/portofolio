@@ -2,7 +2,7 @@ import { Briefcase, Calendar, Globe, UserCheck } from "lucide-react";
 import { motion } from "framer-motion";
 import AnimatedSectionHeader from "./AnimatedSectionHeader";
 
-export default function Experience() {
+export default function Experiences() {
   const experiences = [
     {
       company: "AWS re/Start Participant",
@@ -47,7 +47,7 @@ export default function Experience() {
 
   return (
     <section
-      id="experience"
+      id="experiences"
       className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-indigo-900 transition-colors duration-300 overflow-hidden relative"
     >
       <div className="container mx-auto px-6 relative z-10">

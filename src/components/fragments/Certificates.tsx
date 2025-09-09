@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FileCode } from "lucide-react";
 
-export default function Sertificate() {
+export default function Certificates() {
   const services = [
     {
       icon: <FileCode className="w-12 h-12 min-w-12 min-h-12 text-amber-500" />,
@@ -57,7 +57,7 @@ export default function Sertificate() {
 
   return (
     <section
-      id="sertificates"
+      id="certificates"
       className="py-20 bg-gradient-to-br from-indigo-50 to-blue-100 dark:from-gray-900 dark:to-blue-900 transition-colors duration-300 overflow-hidden relative"
     >
       <div className="container mx-auto px-6 relative z-10">

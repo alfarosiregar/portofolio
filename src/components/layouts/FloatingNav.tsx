@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const sections = [
   { id: "hero", label: "Home" },
   { id: "about", label: "About" },
-  { id: "experience", label: "Experience" },
+  { id: "experiences", label: "Experiences" },
   { id: "skills", label: "Skills" },
-  { id: "services", label: "Services" },
+  { id: "certificates", label: "Certificates" },
   { id: "education", label: "Education" },
   { id: "contact", label: "Contact" },
 ];
